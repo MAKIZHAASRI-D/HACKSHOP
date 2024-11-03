@@ -3,7 +3,7 @@ import json
 from streamlit_lottie import st_lottie
 from PIL import Image
 #st.set_page_config(page_title="GUESSING GAME",page_icon="wave",layout="centered")
-intuition_game=st.Page(page="C:\\Users\\L E N O V O\\Desktop\\HACKSHOP\\HACKSHOP\\intuition_zone.py",title="INTUITION ZONE GAME")
+intuition_game=st.Page(page="C:\\Users\\L E N O V O\\Desktop\\HACKSHOP\\HACKSHOP\\intuition_zone.py",title="INTUITION ZONE GAME",default=True)
 cybernetic_reign=st.Page(page="C:\\Users\\L E N O V O\\Desktop\\HACKSHOP\\HACKSHOP\\cybernetic_reign.py",title="CYBERNETIC REIGN GAME")
 user_game=st.Page(page="C:\\Users\\L E N O V O\\Desktop\\HACKSHOP\\HACKSHOP\\user_game.py",title="user_game")
 computer_reign=st.Page(page="C:\\Users\\L E N O V O\\Desktop\\HACKSHOP\\HACKSHOP\\computer_game.py",title="computer_reign")
