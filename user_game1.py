@@ -1,3 +1,7 @@
+import streamlit as st
+from streamlit_option_menu import option_menu
+import random
+
 def game():
     if st.button("Check"):
         st.session_state.attempted += 1
@@ -19,9 +23,6 @@ def game():
                 st.write("Game over! Please refresh to play again.")
 
 
-import streamlit as st
-from streamlit_option_menu import option_menu
-import random
 
 st.title("INTUITION ZONE GAME" )
 st.write("##")
@@ -44,8 +45,6 @@ with st.container():
         st.write("LIVES")
         st.write("##")
         no_of_attempts = st.number_input("Enter the number of attempts you want:", step=1,value=0)
-
-
 
 
         
